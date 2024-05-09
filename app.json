@@ -1,0 +1,12 @@
+{
+  "name": "microservice-transaction-omercan",
+
+  "buildpacks":
+  [
+    {
+      "url": "heroku/gradle"
+    }
+
+  ]
+}
+
