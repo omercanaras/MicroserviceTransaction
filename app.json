@@ -1,5 +1,5 @@
 {
-  "name": "microservice-transaction-omercan",
+  "name": "microservice-transaction",
 
   "buildpacks":
   [
