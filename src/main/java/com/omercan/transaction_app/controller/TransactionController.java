@@ -44,7 +44,7 @@ public class TransactionController {
     {
         Transaction foundTransaction = transactionService.findById(id);
 
-        return foundTransaction!=null ? new ResponseEntity<>(foundTransaction, HttpStatus.FOUND) : new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        return foundTransaction!=null ? new ResponseEntity<>(foundTransaction, HttpStatus.OK) : new ResponseEntity<>(HttpStatus.NOT_FOUND);
 
 
     }
